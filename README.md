@@ -35,7 +35,7 @@
 <details>
   <summary>Product Design</summary>
   <ul>
-    <li><a href="https://docs.google.com/document/d/12x5RYKhqj-Pt6VmCU_uSX0dxQSxUeN2-HR16V56s7Wc/edit/">Sketch Design</a></li>
+    <li><a href="https://docs.google.com/document/d/12x5RYKhqj-Pt6VmCU_uSX0dxQSxUeN2-HR16V56s7Wc/edit">Sketch Design</a></li>
   </ul>
 </details>
 
