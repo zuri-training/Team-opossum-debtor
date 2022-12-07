@@ -40,7 +40,7 @@
 </details>
 
 <details>
-  <summary>Languages</summary>
+  <summary>Frontend</summary>
   <ul>
     <li><a href="https://developer.mozilla.org/">JavaScript</a></li>
   </ul>
@@ -50,31 +50,30 @@
   <ul>
     <li><a href="https://developer.mozilla.org/">HTML</a></li>
   </ul>
-  <ul>
-    <li><a href="https://developer.mozilla.org/">Python</a></li>
+   <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+   <ul>
+    <li><a href="https://npmjs.com/">NPM</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Framework</summary>
+  <summary>Backend</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://developer.mozilla.org/">Python</a></li>
+  </ul>
+  <ul>
+    <li><a href="https://developer.mozilla.org/">Django web framework</a></li>
   </ul>
   <ul>
     <li><a href="https://djangoproject.org/">Django Rest Framework</a></li>
   </ul>
-</details>
-
-<details>
-  <summary>Other Technologies</summary>
   <ul>
-    <li><a href="https://npmjs.com/">NPM</a></li>
+    <li><a href="https://pypi.com/">PIP</a></li>
   </ul>
   <ul>
     <li><a href="https://git-scm.com/">Git</a></li>
-  </ul>
-  <ul>
-    <li><a href="https://pypi.com/">PIP</a></li>
   </ul>
 </details>
 
@@ -139,6 +138,7 @@ Install this project with:
   npm install
 
   []For Backend
+  - Create virtual environment
   pip install -r requirements.txt
 ```
 
