@@ -5,5 +5,6 @@ urlpatterns = [
     path('', views.getRoutes),
     path('debtors/', views.getDebtors),
     path('debtors/<str:pk>/', views.getDebtor),
+    path('create/', views.addDebtor)
     
 ]

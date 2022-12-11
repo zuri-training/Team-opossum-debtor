@@ -8,7 +8,8 @@ def getRoutes(reques):
     routes = [
         'GET /api',
         'GET /api/debtors',
-        'GET /api/debtors/:id'
+        'GET /api/debtors/:id',
+        'POST /api/create'
     ]
     return Response(routes)
 
@@ -23,3 +24,13 @@ def getDebtor(request, pk):
     debtor = Debtor.objects.get(id=pk)
     serializer = DebtorSerializer(debtor, many=False)
     return Response(serializer.data)
+
+@api_view(['POST'])
+def addDebtor(request):
+    try:
+        serializer = DebtorSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+        return Response(serializer.data)
+    except:
+        print("Invalid data")
