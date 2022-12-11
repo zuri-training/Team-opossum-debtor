@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    min-height: 100px;
+    justify-content: center;   
+}
+
+.form-title {
+    color: #1877F2;
+}
+
+.left-side {
+    width: 522px;
+    height: 500px;
+    text-align: center;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width: 280px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: .8rem;
+}
+
+input::placeholder {
+    opacity: 0.5;
+}
+
+.welcome-pic{
+    width: 400px;
+    /* outline: 1px solid rebeccapurple; */
+    margin-top: 6rem;
+}
+
+.welcome-admin {
+    width: 400px;
+}
+
+.account {
+    font-size: 10px;
+    width: 350px;
+    height: 38px;
+    margin-left: 8rem;
+}
+
+.login {
+    color: #49B1A1;
+}
+
+.login:hover {
+    cursor: pointer;
+    color: #1877F2;
+}
+
+.btn-signup {
+    width: 200px;
+    height: 60px;
+    background-color: #00A5CF;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    padding: 12px 10px;
+    color: #ffff;
+    font-size: 15px;
+
+}
+
+.btn-signup:hover {
+    cursor: pointer;
+    background-color: #49B1A1;
+}
+
+/* hr {
+    display: block;
+} */
+
+hr {
+    display: inline-block;
+    width: 20px;
+    color: black;
+}
+
+.word-or {
+    font-size: 10px;
+    position: relative;
+    bottom: .4rem;
+}
+
+svg {
+    width: 25px;
+    margin-left: 1.3rem;
+    height: 25px;
+}

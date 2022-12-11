@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 90px;
+}
+
+.mid {
+    display: inline-block;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 6rem;
+    position: relative;
+    bottom: 1.5rem;
+}
+    
+.left {
+    display: inline-block;
+    font-size: 18px;
+    padding: 18px 17px;
+}   
+
+.left a{
+    text-decoration:none;
+}
