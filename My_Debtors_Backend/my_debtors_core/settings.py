@@ -33,6 +33,7 @@ INSTALLED_APPS = [
 
     # Third party
     'rest_framework',
+    'corsheaders',
 
     # local applications
     'authentication.apps.AuthenticationConfig',
@@ -48,6 +49,9 @@ REST_FRAMEWORK = {
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    #middleware for cors-header
+    "corsheaders.middleware.CorsMiddleware",
+    
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -83,10 +87,10 @@ WSGI_APPLICATION = "my_debtors_core.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": BASE_DIR / str(os.getenv('NAME')),
-        "USER": env('USER'),
-        'PASSWORD': env('PASSWORD'),
-        'HOST': env('HOST')
+        "NAME": str(os.getenv('NAME')),
+        'USER': str(os.getenv('USER')),
+        'PASSWORD': str(os.getenv('PASSWORD')),
+        'HOST': str(os.getenv('HOST'))
     }
 }
 
@@ -134,3 +138,6 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+#allowing any app to call our api
+CORS_ALLOW_ALL_ORIGINS = True
