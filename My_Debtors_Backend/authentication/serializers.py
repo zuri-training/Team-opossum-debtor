@@ -26,3 +26,17 @@ class LoginSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ['username', 'password']
+
+
+class ComplaintsListSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Complaint
+        fields = ['full_names', 'phone_number', 'complaint', 'complaint_number', 'location', 
+                'date_created', 'date_resolved', 'assigned_to', 'status'
+            ]
+
+
+class CreateComplaintsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Complaint
+        fields = ['full_names', 'phone_number', 'complaint', 'location']
