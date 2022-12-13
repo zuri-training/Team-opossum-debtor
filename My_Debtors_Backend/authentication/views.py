@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework.generics import (
     ListCreateAPIView, RetrieveUpdateDestroyAPIView, 
     UpdateAPIView, get_object_or_404,
-    ListAPIView, CreateAPIView,
+    ListAPIView, CreateAPIView, GenericAPIView
 )
 from .serializers import (
     UserSerializer, LoginSerializer, 
@@ -14,7 +14,7 @@ from .serializers import (
 from django.conf import settings
 from django.contrib import auth
 import jwt 
-
+from .models import Complaint
 
 class RegisterView(GenericAPIView):
     serializer_class = UserSerializer
@@ -59,7 +59,7 @@ class CreateComplaintView(CreateAPIView):
 
 class ComplaintListView(ListAPIView):
     serializer_class = ComplaintsListSerializer
-    queryset = Complaint.object.all()
+    queryset = Complaint.objects.all()
 
 
 
