@@ -1,33 +1,35 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./NavBar.css";
 import Logo from "../images/logo.png";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div className="left">
+    <div className="main-nav">
       <img src={Logo} className="logo" alt="Debtors Logo" />
       <div className="mid">
         <ul className="navbar">
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <Link to="/about">About Us</Link>
+            <NavLink to="/AboutUs">About Us</NavLink>
           </li>
           <li>
-            <Link to="/contact">Contact Us</Link>
+            <NavLink to="/ContactUs">Contact Us</NavLink>
           </li>
           <li>
-            <Link to="/FAQ">FAQ</Link>
+            <NavLink to="/Faq">FAQ</NavLink>
           </li>
-          <li>
-            <Link to="/RegisterUser">SignUp User</Link>
+          <li className="btn">
+            <NavLink to="/RegisterUser"><button className="btn-signup2">Sign Up</button></NavLink>
           </li>
-          <li>
-            <Link to="/RegisterAdmin">SignUp Admin</Link>
+          <li className="btn">
+            <NavLink to="/Login"><button className="btn-login">Login</button></NavLink>
           </li>
         </ul>
+       
       </div>
     </div>
   );

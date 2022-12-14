@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    /* outline: 1px solid red; */
+    height: 200px;
+    margin-top: 22rem;
+    background-color: #AAE1EF;
+    color: #000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}

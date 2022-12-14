@@ -1,5 +1,5 @@
 import React from "react";
-import FormAdmin from "../Components/FormAdmin";
+import FormAdmin from "../Components/Form/FormAdmin";
 import Question from "../Components/Question";
 import Button from "../Components/Button";
 import "../Components/style.css";
