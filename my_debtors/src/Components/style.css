@@ -5,14 +5,19 @@
     font-family: poppins, sans-serif;
 }
 
+.App {
+    height: 100vh;
+}
+
 .flex-container {
     display: flex;
     min-height: 100px;
-    justify-content: center;   
+    justify-content: center;
+    margin-top: 3rem;   
 }
 
 .form-title {
-    color: #1877F2;
+    color: #2BB4D7;
 }
 
 .left-side {
@@ -53,8 +58,13 @@ input::placeholder {
     margin-left: 8rem;
 }
 
+.account-two {
+    margin-left: 5rem;
+}
+
 .login {
     color: #49B1A1;
+    text-decoration: none;
 }
 
 .login:hover {
@@ -101,3 +111,26 @@ svg {
     margin-left: 1.3rem;
     height: 25px;
 }
+
+.forgot-pwd {
+    text-decoration: none;
+    color: black;
+}
+
+.forgot-pwd:hover {
+    color: #1877F2;
+}
+
+.password-container {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.password-container p {
+    font-size: 12px;
+}
+
+.forgot-password {
+    width: 20%;
+}
+
