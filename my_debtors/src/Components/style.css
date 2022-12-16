@@ -134,3 +134,114 @@ svg {
     width: 20%;
 }
 
+/* HomePage CSS */
+main {
+    padding: 1.5rem;
+}
+
+.first-section,
+.about-us, 
+.mission, 
+.how-section {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.first-frame {
+    width: 50%;
+    background-image: linear-gradient(to right, white, #C4E0E5, #4CA1AF);
+}
+
+.first-frame h1 {
+    margin-left: 8rem;
+    height: 160px;
+    font-size: 2rem;
+    width: 280px;
+}
+
+.first-frame p {
+   width: 350px;
+   margin-left: 8rem;
+
+}
+
+.signing {
+    Width: 650px;
+    height: 400px;
+}
+
+.btn-home {
+    background-color: #00A5CF;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 42px;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    border-radius: 5px;
+}
+
+.btn-home:hover, 
+.btn-works:hover {
+    cursor: pointer;
+    background-color: #49B1A1;
+}
+
+.btn-works {
+    border-color: #6D309D;
+    background-color: transparent;
+    width: 100px;
+    height: 42px;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+
+.about-us {
+    margin-top: 2rem;
+}
+
+.about-frame
+.how-frame {
+    width: 50%;
+} 
+
+.about-paragraph {
+    width: 550px;
+    margin-right: 3rem;
+}
+
+.about-frame h2 {
+    text-align: center;
+}
+
+.about-img {
+    width: 111%;
+}
+
+
+.mission p {
+    width: 400px;
+    margin-left: 5rem;
+}
+
+.mission-img {
+    width: 700px;
+}
+
+.mission h2 {
+    text-align: center;
+}
+
+.how-section h2{
+    text-align: center;
+}
+
+.how-section p {
+    width: 550px; 
+}
+
+.teaching {
+    margin-left: 6rem;
+    width: 91.2%;
+}
