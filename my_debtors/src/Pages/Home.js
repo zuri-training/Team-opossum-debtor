@@ -7,6 +7,7 @@ import FrameTwo from "../images/frame-2.png";
 import FrameThree from "../images/frame-3.png";
 import FrameFour from "../images/frame-4.png";
 import ProfilePic from "../images/olumide.png";
+import Stars from "../images/stars.png";
 
 function Home() {
   return (
@@ -36,10 +37,11 @@ function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing
                 elit. Nunc vulputate. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nunc vulputate. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nunc vulputate. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nunc vulputate. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nunc vulputate. 
+                adipiscing elit. Nunc vulputate. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Nunc vulputate. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit. Nunc vulputate. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate.
               </p>
             </div>
 
@@ -59,10 +61,11 @@ function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing
                 elit. Nunc vulputate. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nunc vulputate. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nunc vulputate. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nunc vulputate. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nunc vulputate.
+                adipiscing elit. Nunc vulputate. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Nunc vulputate. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit. Nunc vulputate. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate.
               </p>
             </div>
           </section>
@@ -74,11 +77,12 @@ function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing
                 elit. Nunc vulputate. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nunc vulputate. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nunc vulputate. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nunc vulputate. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nunc vulputate. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nunc vulputate.
+                adipiscing elit. Nunc vulputate. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Nunc vulputate. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit. Nunc vulputate. Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Nunc vulputate.
               </p>
             </div>
 
@@ -87,16 +91,106 @@ function Home() {
             </div>
           </section>
 
-          <section>
-              <h2>What people say about us</h2>
+          <h2 className="rating-title">What people say about us</h2>
+          <section className="rating">
+            
 
-              <div className="card-slide">
+            <div className="card-frame">
+            <div className="card-slide">
               <div>
-                <img src={ProfilePic} className="profile-pic" alt="Olumide Pic" />   
+                <img
+                  src={ProfilePic}
+                  className="profile-pic"
+                  alt="Olumide Pic"
+                />
               </div>
-
+              <div className="card-name">
+                <h4>Olumide Joseph</h4>
+                <p>Olumide Joseph</p>
+                <img src={Stars} alt="Star Rating" className="stars" />
               </div>
+            </div>
+            <p className="feedback">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos. Curabitur tempus urna at turpis
+                condimentum lobortis.
+              </p>
+            </div>
 
+            <div className="card-frame">
+            <div className="card-slide">
+              <div>
+                <img
+                  src={ProfilePic}
+                  className="profile-pic"
+                  alt="Olumide Pic"
+                />
+              </div>
+              <div className="card-name">
+                <h4>Olumide Joseph</h4>
+                <p>Olumide Joseph</p>
+                <img src={Stars} alt="Star Rating" className="stars" />
+              </div>
+            </div>
+            <p className="feedback">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos. Curabitur tempus urna at turpis
+                condimentum lobortis.
+              </p>
+            </div>
+
+            <div className="card-frame">
+            <div className="card-slide">
+              <div>
+                <img
+                  src={ProfilePic}
+                  className="profile-pic"
+                  alt="Olumide Pic"
+                />
+              </div>
+              <div className="card-name">
+                <h4>Olumide Joseph</h4>
+                <p>Olumide Joseph</p>
+                <img src={Stars} alt="Star Rating" className="stars" />
+              </div>
+            </div>
+            <p className="feedback">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos. Curabitur tempus urna at turpis
+                condimentum lobortis.
+              </p>
+            </div>
+
+            <div className="card-frame">
+            <div className="card-slide">
+              <div>
+                <img
+                  src={ProfilePic}
+                  className="profile-pic"
+                  alt="Olumide Pic"
+                />
+              </div>
+              <div className="card-name">
+                <h4>Olumide Joseph</h4>
+                <p>Olumide Joseph</p>
+                <img src={Stars} alt="Star Rating" className="stars" />
+              </div>
+            </div>
+            <p className="feedback">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                vulputate libero et velit interdum, ac aliquet odio mattis.
+                Class aptent taciti sociosqu ad litora torquent per conubia
+                nostra, per inceptos himenaeos. Curabitur tempus urna at turpis
+                condimentum lobortis.
+              </p>
+            </div>
+            
           </section>
         </main>
       </div>

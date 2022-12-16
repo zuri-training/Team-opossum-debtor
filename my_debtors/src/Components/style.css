@@ -6,7 +6,7 @@
 }
 
 .App {
-    height: 100vh;
+    height: 90vh;
 }
 
 .flex-container {
@@ -43,7 +43,6 @@ input::placeholder {
 
 .welcome-pic{
     width: 400px;
-    /* outline: 1px solid rebeccapurple; */
     margin-top: 6rem;
 }
 
@@ -244,4 +243,44 @@ main {
 .teaching {
     margin-left: 6rem;
     width: 91.2%;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-title {
+    text-align: center;
+}
+
+
+.card-frame {
+    width: 20vw;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow:  4px 5px 5px #999;
+
+}
+
+.card-slide {
+    display: flex;
+}
+
+.card-name {
+    margin-left: .3rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+.card-name p {
+    font-size: .6rem;
+}
+
+.feedback {
+    font-size: .7rem;
+}
+
+.stars {
+    width: 50%;
 }
