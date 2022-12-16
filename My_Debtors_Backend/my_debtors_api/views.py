@@ -4,7 +4,7 @@ from .models import Debtor
 from .serializers import DebtorSerializer
 
 @api_view(['GET'])
-def getRoutes(reques):
+def getRoutes(request):
     routes = [
         'GET /api',
         'GET /api/debtors',
