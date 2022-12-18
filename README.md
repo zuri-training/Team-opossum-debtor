@@ -107,7 +107,7 @@
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-https://639a2cd2d65beb423210ee56--peppy-rolypoly-bad3e7.netlify.app/
+https://nimble-longma-e20967.netlify.app/
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
